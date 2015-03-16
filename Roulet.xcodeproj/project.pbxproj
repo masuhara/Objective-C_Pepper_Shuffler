@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6C9EC41AB6D11000C79A88 /* FOT-ComicReggaeStd-B.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF6C9EC31AB6D11000C79A88 /* FOT-ComicReggaeStd-B.otf */; };
 		AF8BC6611AB6C0DF0084D07E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8BC6601AB6C0DF0084D07E /* main.m */; };
 		AF8BC6641AB6C0DF0084D07E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8BC6631AB6C0DF0084D07E /* AppDelegate.m */; };
 		AF8BC6671AB6C0DF0084D07E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8BC6661AB6C0DF0084D07E /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		AF8BC66C1AB6C0DF0084D07E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC66B1AB6C0DF0084D07E /* Images.xcassets */; };
 		AF8BC66F1AB6C0DF0084D07E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC66D1AB6C0DF0084D07E /* LaunchScreen.xib */; };
 		AF8BC67B1AB6C0DF0084D07E /* RouletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8BC67A1AB6C0DF0084D07E /* RouletTests.m */; };
+		AF8BC6881AB6C10C0084D07E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC6851AB6C10C0084D07E /* Default-568h@2x.png */; };
+		AF8BC6891AB6C10C0084D07E /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC6861AB6C10C0084D07E /* Default-667h@2x.png */; };
+		AF8BC68A1AB6C10C0084D07E /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC6871AB6C10C0084D07E /* Default-736h@3x.png */; };
+		AF8BC68E1AB6C3140084D07E /* monitor.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC68C1AB6C3140084D07E /* monitor.png */; };
+		AF8BC68F1AB6C3140084D07E /* pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8BC68D1AB6C3140084D07E /* pepper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF6C9EC31AB6D11000C79A88 /* FOT-ComicReggaeStd-B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOT-ComicReggaeStd-B.otf"; sourceTree = "<group>"; };
 		AF8BC65B1AB6C0DF0084D07E /* Roulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8BC65F1AB6C0DF0084D07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8BC6601AB6C0DF0084D07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,11 @@
 		AF8BC6741AB6C0DF0084D07E /* RouletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8BC6791AB6C0DF0084D07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8BC67A1AB6C0DF0084D07E /* RouletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouletTests.m; sourceTree = "<group>"; };
+		AF8BC6851AB6C10C0084D07E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF8BC6861AB6C10C0084D07E /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		AF8BC6871AB6C10C0084D07E /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		AF8BC68C1AB6C3140084D07E /* monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monitor.png; sourceTree = "<group>"; };
+		AF8BC68D1AB6C3140084D07E /* pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pepper.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF6C9EC51AB6DBBF00C79A88 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF6C9EC31AB6D11000C79A88 /* FOT-ComicReggaeStd-B.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		AF8BC6521AB6C0DF0084D07E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 		AF8BC65D1AB6C0DF0084D07E /* Roulet */ = {
 			isa = PBXGroup;
 			children = (
+				AF6C9EC51AB6DBBF00C79A88 /* Fonts */,
+				AF8BC68B1AB6C3080084D07E /* Images */,
 				AF8BC6621AB6C0DF0084D07E /* AppDelegate.h */,
 				AF8BC6631AB6C0DF0084D07E /* AppDelegate.m */,
 				AF8BC6651AB6C0DF0084D07E /* ViewController.h */,
@@ -96,6 +118,7 @@
 		AF8BC65E1AB6C0DF0084D07E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF8BC6841AB6C10C0084D07E /* Defaults */,
 				AF8BC65F1AB6C0DF0084D07E /* Info.plist */,
 				AF8BC6601AB6C0DF0084D07E /* main.m */,
 			);
@@ -117,6 +140,25 @@
 				AF8BC6791AB6C0DF0084D07E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF8BC6841AB6C10C0084D07E /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				AF8BC6851AB6C10C0084D07E /* Default-568h@2x.png */,
+				AF8BC6861AB6C10C0084D07E /* Default-667h@2x.png */,
+				AF8BC6871AB6C10C0084D07E /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		AF8BC68B1AB6C3080084D07E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF8BC68C1AB6C3140084D07E /* monitor.png */,
+				AF8BC68D1AB6C3140084D07E /* pepper.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8BC66A1AB6C0DF0084D07E /* Main.storyboard in Resources */,
+				AF8BC68F1AB6C3140084D07E /* pepper.png in Resources */,
+				AF8BC68E1AB6C3140084D07E /* monitor.png in Resources */,
+				AF8BC6881AB6C10C0084D07E /* Default-568h@2x.png in Resources */,
+				AF6C9EC41AB6D11000C79A88 /* FOT-ComicReggaeStd-B.otf in Resources */,
 				AF8BC66F1AB6C0DF0084D07E /* LaunchScreen.xib in Resources */,
 				AF8BC66C1AB6C0DF0084D07E /* Images.xcassets in Resources */,
+				AF8BC6891AB6C10C0084D07E /* Default-667h@2x.png in Resources */,
+				AF8BC68A1AB6C10C0084D07E /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Roulet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Roulet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +462,7 @@
 				AF8BC6801AB6C0DF0084D07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF8BC6811AB6C0DF0084D07E /* Build configuration list for PBXNativeTarget "RouletTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +471,7 @@
 				AF8BC6831AB6C0DF0084D07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
